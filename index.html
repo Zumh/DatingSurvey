@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="datingform.css">
+    </head>
+    <body>
+        <main>
+            <title>SurveyForm</title>
+        <h1 id="title">Dating Survey</h1>
+        <p id="description">
+          
+            Thank you for taking the time to complete our survey!
+       
+        </p>
+        
+                <form action="" method="get" id="survey-form">
+
+                    <!--Name-->
+                    <div class="form-controler">
+
+                        <label for="name" id="name-label">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required/> 
+                    </div>    
+
+                    <!--Email-->
+                    <div class="form-controler">
+                                  <label for="email" id="email-label">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" required/>
+                    </div>
+              
+                    <!--Age-->
+                    <div class="form-controler">
+                        <label for="age" id="number-label">Age: </label>
+                        <input type="number" name="age" id="number" placeholder="18" min="18" max="100" required/> 
+                    </div>
+
+                    <!--Jobs-->
+                    <div class="form-controler">
+                        <label for="job-lable">Jobs</label>
+                        <select name="pick-job" id="dropdown" require>
+                            <option value="">Select current job</option>
+                            <option value="student">Student</option>
+                            <option value="fulltime">Full Time Job</option>
+                            <option value="parttime">Part time Job</option>
+                            <option value="unemploy">Unemploy</option>
+                        </select>
+                    </div>
+                        <!--Gender-->
+                        <div class="form-controler">
+                        <label for="gender-lable">Sex/Gender</label>
+                        <label>
+                        <input name="gender" id="Male" value="Male" type="radio" class="input-radio" checked />Male</label>
+                        <label>
+                        <input name="gender" id="Female" value="Female" type="radio" class="input-radio" />Female</label>
+                    </div>
+
+
+                    <!--Relationship-->
+                    <div class="form-controler">
+                        <p for="real-lable">Pick your prefer relationship type.
+                        <span class="clue">(Check all that apply)</span>
+                        </p>
+                        <div>
+                        <label><input name="" id="" value="longterm" type="checkbox" class="input-checkbox" />longterm</label>
+                    </div>
+                    <div>
+                        <label>
+                        <input name="" id="" value="shorterm" type="checkbox" class="input-checkbox" />shortterm</label>
+                    </div>
+                    <div>
+                        <label>
+                            <input name="" id="" value="fwb" type="checkbox" class="input-checkbox" />friend with benefit</label>
+                    </div>
+               
+
+                   
+
+                    <!--comment-->
+                    <div class="form-controler">
+                        <label for="comment-lable">Input comment here: </label>
+                        <textarea  name="comment" id="comment" cols="60" rows="10" placeholder="Enter your comment here...."></textarea>
+                    </div>
+                 
+                    <div>
+                        <input  type="submit" id="submit" value="submit form"/>
+                    </div>
+               
+                
+                </form>
+                <footer>&copy; Zumh Lungler </footer>
+        </main>
+       
+    </body>
+</html>

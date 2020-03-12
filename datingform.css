@@ -1,0 +1,66 @@
+body {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(logo.png);
+}
+main {
+    background-color: chocolate;
+    border-radius: 5%;
+}
+
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+
+#description {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+form {
+  text-emphasis: left;
+  border: 1px solid black; 
+  margin: 15px;
+  padding: 1.5 rem;
+  background-color: cornsilk;
+    margin:20px;
+}
+
+.form-controler {
+  padding: 0.4px;
+}
+
+input {
+  margin-left: 2px;
+}
+
+#number {
+  width: 159px;
+}
+
+[for="comment-lable"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#name-label, #email-label, #number-label, [for="job-lable"],[for="gender-lable"],[for="real-lable"], [for="comment-lable"]{
+    font-weight: bolder;
+}
+
+.form-controler {
+    padding: 0.6rem;
+}
+#submit {
+text-align: center;
+}
+[type="submit"] {
+    font-size: 25px;
+}
+
